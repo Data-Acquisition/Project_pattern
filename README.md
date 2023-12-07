@@ -12,13 +12,13 @@
 
 ###  Подключение в Pycharm интерпретатора poetry 
 - Полная инструкция в jetbrains [Документации](https://www.jetbrains.com/help/pycharm/poetry.html#poetry-env)
-- В случае неудачи писать за помощью к `https://t.me/mob1ss`
-- install `pip install poetry`
-- Run `poetry install`
+- В случае неудачи писать за помощью к [@mob1ss](https://t.me/mob1ss)
 
 ### Для тех, кто работает в Других редакторах VisualSt и тд.
 - install `python -m venv myenv`
 - activate `source myenv/bin/activate` || `myenv\Scripts\activate`
+- install `pip install poetry`
+- Run `poetry install`
 
 ### Пример poetry DockerFile для API
 ```angular2html
