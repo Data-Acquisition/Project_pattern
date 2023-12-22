@@ -52,3 +52,6 @@ CMD ["uvicorn", "stargate.main:app", "--host", "0.0.0.0", "--port", "5002"]
 - `logger.success("mess")` - в успешного вывода или принта (транслируется зеленным)
 - `logger.error("mess")` - в ошибок в except (транслируется зеленным)
 
+## RabbitMQ
+- [Репозиторий](https://github.com/Data-Acquisition/RabbitMq-Python) и UseCases для использования
+- [Видео о том, что это такое](https://www.youtube.com/watch?v=WoPfMjy3UqA)
