@@ -50,8 +50,15 @@ CMD ["uvicorn", "stargate.main:app", "--host", "0.0.0.0", "--port", "5002"]
 - `logger.info("mess")` - вместо обычного print
 - `logger.debug("mess")` - в случае дебагов
 - `logger.success("mess")` - в успешного вывода или принта (транслируется зеленным)
-- `logger.error("mess")` - в ошибок в except (транслируется зеленным)
+- `logger.error("mess")` - в ошибок в except (транслируется красным)
 
 ## RabbitMQ
 - [Репозиторий](https://github.com/Data-Acquisition/RabbitMq-Python) и UseCases для использования
 - [Видео о том, что это такое](https://www.youtube.com/watch?v=WoPfMjy3UqA)
+
+## Docker
+- [Репозиторий](https://github.com/Data-Acquisition/Dokcer_Pattern) и примеры по сборкам проектам
+- [Общий материал для ознакомления](https://sky.pro/media/chto-takoe-kontejnerizacziya-i-kak-ispolzovat-docker-s-python/)
+- [Средне-углубленный материал](https://apipython.ru/rukovodstvo-po-ispolzovaniyu-modulya-python-dlya-raboty-s-docker-kontejnerami/)
+- [Технически углубленный материал](https://tproger.ru/articles/dockerize-python-sozdajom-obraz-docker-iz-prilozhenija-na-python)
+- [Видео-гайд по Docker c понятным объяснением](https://www.youtube.com/watch?v=eAXjeh5MRVU)
