@@ -49,7 +49,7 @@ CMD ["uvicorn", "stargate.main:app", "--host", "0.0.0.0", "--port", "5002"]
 `from loguru import logger`
 - `logger.info("mess")` - вместо обычного print
 - `logger.debug("mess")` - в случае дебагов
-- `logger.success("mess")` - в успешного вывода или принта (транслируется зеленным)
+- `logger.success("mess")` - в успешного вывода или принта (транслируется зеленым)
 - `logger.error("mess")` - в ошибок в except (транслируется красным)
 
 ## RabbitMQ
@@ -62,3 +62,39 @@ CMD ["uvicorn", "stargate.main:app", "--host", "0.0.0.0", "--port", "5002"]
 - [Средне-углубленный материал](https://apipython.ru/rukovodstvo-po-ispolzovaniyu-modulya-python-dlya-raboty-s-docker-kontejnerami/)
 - [Технически углубленный материал](https://tproger.ru/articles/dockerize-python-sozdajom-obraz-docker-iz-prilozhenija-na-python)
 - [Видео-гайд по Docker c понятным объяснением](https://www.youtube.com/watch?v=eAXjeh5MRVU)
+
+## Tests
+
+### Видео уроки
+1) Pytest
+- [Pytest - первое знакомство](https://www.youtube.com/watch?v=rAKIK5_UMzw&list=PLeLN0qH0-mCVdHgdjlnKTl4jKuJgCK-4b)
+- [Pytest - углубленные уровень 1](https://www.youtube.com/watch?v=1HtEPEn4-LY&list=PLlKID9PnOE5hCuNW8L-qxC12U7WPWG6YS)
+- [Pytest - углубленные уровень 2](https://www.youtube.com/watch?v=s_aG4tBJoeI&list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU)
+
+2) Playwright
+- [Playwright - первое знакомство](https://www.youtube.com/watch?v=sWaahzhbzLA)
+- [Playwright - угулубленный уровень 1](https://www.youtube.com/watch?v=amcr5vZ_53s)
+- [Playwright - угулубленный уровень 2](https://www.youtube.com/watch?v=f1AwiE_M3SE)
+
+### Документации
+
+1) [Pytest - оф. документация](https://docs.pytest.org/en/latest/contents.html)
+2) [Playwright - оф. документация](https://playwright.dev/python/docs/intro)
+
+### Статьи + доп материал по тестированию и тд
+1) [Как написать свой первый автотест Pytest + Playwright](https://habr.com/ru/articles/714950/)
+2) [Тестируем с Playwright](https://tproger.ru/articles/sovremennyj-podhod-k-avtomatizacii-testirovaniya-veb-prilozhenij-s-pomoshhyu-python-playwright-242777)
+3) [Логирование Logging](https://habr.com/ru/companies/wunderfund/articles/683880/)
+4) [Логирование Loguru](https://habr.com/ru/articles/454436/)
+5) [Тестируем на Python: unittest и pytest. Инструкция для начинающих ](https://tproger.ru/articles/testiruem-na-python-unittest-i-pytest-instrukcija-dlja-nachinajushhih)
+6) [Основы эффективного тестирования Python программ в Pytest](https://pylot.me/article/26-osnovi-effektivnogo-testirovaniya-python-programm-v-pytest/)
+7) [Как правильно писать API авто тесты на Python](https://habr.com/ru/articles/709380/)
+7) [Пишем АПИ автотесты на Python по шагам](https://habr.com/ru/articles/765512/)
+8) [Git за полчаса](https://proglib.io/p/git-for-half-an-hour)
+
+
+## Шпаргалка по Python
+ - [«Python за час»](https://okpython.net/python/python_za_chas/python_za_chas.html)
+ - [Энциклопедия Devman Python](https://dvmn.org/encyclopedia/)
+ - [Видео Уроки по основам Python](https://www.youtube.com/watch?v=34Rp6KVGIEM&list=PLDyJYA6aTY1lPWXBPk0gw6gR8fEtPDGKa)
+ - [Видео - Python за 15 минут](https://www.youtube.com/watch?v=U0lib5e_c-A)
